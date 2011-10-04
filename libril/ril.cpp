@@ -2657,6 +2657,7 @@ checkAndDequeueRequestInfo(struct RequestInfo *pRI) {
     int ret = 0;
 
     if (pRI == NULL) {
+        LOGE ("checkAndDequeueRequestInfo: NULL RIL_Token");
         return 0;
     }
 

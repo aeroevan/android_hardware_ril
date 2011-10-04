@@ -15,7 +15,7 @@
 ** limitations under the License.
 */
     {0, NULL, NULL},                   //none
-    {RIL_REQUEST_GET_SIM_STATUS, dispatchVoid, responseInts},
+    {RIL_REQUEST_GET_SIM_STATUS, dispatchVoid, responseSimStatus},
     {RIL_REQUEST_ENTER_SIM_PIN, dispatchStrings, responseInts},
     {RIL_REQUEST_ENTER_SIM_PUK, dispatchStrings, responseInts},
     {RIL_REQUEST_ENTER_SIM_PIN2, dispatchStrings, responseInts},
@@ -118,3 +118,45 @@
     {RIL_REQUEST_SET_SMSC_ADDRESS, dispatchString, responseVoid},
     {RIL_REQUEST_REPORT_SMS_MEMORY_STATUS, dispatchInts, responseVoid},
     {RIL_REQUEST_REPORT_STK_SERVICE_IS_RUNNING, dispatchVoid, responseVoid}
+    {RIL_REQUEST_ACCESS_PHONEBOOK_ENTRY, dispatchVoid, responseVoid}
+    {RIL_REQUEST_CALL_DEFLECTION, dispatchVoid, responseVoid}
+    {RIL_REQUEST_CDMA_GET_DATAPROFILE, dispatchVoid, responseVoid}
+    {RIL_REQUEST_CDMA_GET_SYSTEMPROPERTIES, dispatchVoid, responseVoid}
+    {RIL_REQUEST_CDMA_SET_DATAPROFILE, dispatchVoid, responseVoid}
+    {RIL_REQUEST_CDMA_SET_SYSTEMPROPERTIES, dispatchVoid, responseVoid}
+    {RIL_REQUEST_CRFM_LINE_SMS_COUNT_MSG, dispatchVoid, responseVoid}
+    {RIL_REQUEST_CRFM_LINE_SMS_READ_MSG, dispatchVoid, responseVoid}
+    {RIL_REQUEST_DIAL_EMERGENCY_CALL, dispatchVoid, responseVoid}
+    {RIL_REQUEST_DIAL_VIDEO_CALL, dispatchVoid, responseVoid}
+    {RIL_REQUEST_GET_CELL_BROADCAST_CONFIG, dispatchVoid, responseVoid}
+    {RIL_REQUEST_GET_LINE_ID, dispatchVoid, responseVoid}
+    {RIL_REQUEST_GET_MPSR, dispatchVoid, responseVoid}
+    {RIL_REQUEST_GET_PHONEBOOK_ENTRY, dispatchVoid, responseVoid}
+    {RIL_REQUEST_GET_PHONEBOOK_STORAGE_INFO, dispatchVoid, responseVoid}
+    {RIL_REQUEST_GET_STOREAD_MSG_COUNT, dispatchVoid, responseVoid}
+    {RIL_REQUEST_LOCK_INFO, dispatchVoid, responseVoid}
+    {RIL_REQUEST_MODEM_HANGUP, dispatchVoid, responseVoid}
+    {RIL_REQUEST_OMADM_CLIENT_START_SESSION, dispatchVoid, responseVoid}
+    {RIL_REQUEST_OMADM_SEND_DATA, dispatchVoid, responseVoid}
+    {RIL_REQUEST_OMADM_SERVER_START_SESSION, dispatchVoid, responseVoid}
+    {RIL_REQUEST_OMADM_SETUP_SESSION, dispatchVoid, responseVoid}
+    {RIL_REQUEST_PS_ATTACH, dispatchVoid, responseVoid}
+    {RIL_REQUEST_PS_DETACH, dispatchVoid, responseVoid}
+    {RIL_REQUEST_PS_DETACH_CONFIRM, dispatchVoid, responseVoid}
+    {RIL_REQUEST_PS_DISCONNECT_CONFIRM, dispatchVoid, responseVoid}
+    {RIL_REQUEST_READ_SMS_FROM_SIM, dispatchVoid, responseVoid}
+    {RIL_REQUEST_RESUME_DATA_CHANNELS, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SEND_ENCODED_USSD, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SEND_MOBILE_TRACKER_SMS, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SEND_SMS_COUNT, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SEND_SMS_MSG, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SEND_SMS_MSG_READ_STATUS, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SETUP_DEDICATED_BEARER, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SET_CELL_BROADCAST_CONFIG, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SET_LINE_ID, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SET_MPSR, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SET_PDA_MEMORY_STATUS, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SIM_AUTH, dispatchVoid, responseVoid}
+    {RIL_REQUEST_STK_SIM_INIT_EVENT, dispatchVoid, responseVoid}
+    {RIL_REQUEST_SUSPEND_DATA_CHANNELS, dispatchVoid, responseVoid}
+    {RIL_REQUEST_USIM_PB_CAPA, dispatchVoid, responseVoid}
